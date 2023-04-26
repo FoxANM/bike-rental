@@ -1,0 +1,120 @@
+.caseDetail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #5cec5c;
+  padding: 30px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 4px #155509;
+  position: fixed;
+  top: 10%;
+  width: 100%;
+  margin: 0;
+  color: #155509;
+  column-gap: 50px;
+  padding: 40px 60px;
+}
+
+.caseDetail input {
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 5px;
+  max-width: 70vw;
+  background-color: white;
+  color: #155509;
+}
+
+.caseDetail input:disabled {
+  background-color: #d7f9d7;
+}
+
+.caseDetail select,
+.caseDetail input {
+  min-width: 20vw;
+  min-height: 5vh;
+  max-width: 80vw;
+}
+
+.caseDetail label {
+  color:#155509;
+  margin: 10px;
+}
+
+.caseDetail div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.caseDetail h1 {
+  text-align: center;
+  color: #155509;
+}
+
+.closeDetail {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+  color: #155509;
+}
+
+.caseFormDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 70vh;
+  overflow: auto;
+  margin: 30px 0;
+}
+
+.caseFormDetail div {
+  display: flex;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 15px;
+}
+
+.edit {
+  border: none;
+  background-color: orange;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.save {
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.delete {
+  border: none;
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}  

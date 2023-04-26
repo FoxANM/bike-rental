@@ -1,0 +1,12 @@
+.footer {
+  color: #494b5a;
+  background-color: #5cec5c;
+  height: 64px;
+  padding: 0;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

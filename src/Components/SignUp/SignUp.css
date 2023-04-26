@@ -1,0 +1,72 @@
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0 100px 0;
+    gap: 100px;
+  }
+  
+  .formUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5cec5c;
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+  }
+  
+  .formUp h1 {
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  
+  .formUp label {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .formUp input {
+    margin: 10px;
+    width: 280px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  input:invalid {
+    border: none;
+    outline: 2px solid #155509;
+    border-radius: 5px;
+  }
+
+  .formUp button {
+    width: 280px;
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    background-color: #155509;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 576px) {
+    .formUp {
+      width: 95%;
+    }
+
+    .formUp input {
+      max-width: 95%;
+    }
+
+    .formIn button {
+      max-width: 95%;
+    }
+  }
+
+

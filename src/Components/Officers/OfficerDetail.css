@@ -1,0 +1,102 @@
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  max-width: 100vw;
+  padding: 40px 60px;
+  color: #155509;
+  box-shadow: 0 0 7px 4px #155509;
+  column-gap: 50px;
+  background-color: #5cec5c;
+  margin: 0;
+  position: fixed;
+  top: 10%;
+}
+
+.closeDetail {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+  color: #155509;
+}
+
+.formDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50vw;
+  padding-top: 20px;
+}
+
+.formDetail input {
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 5px;
+  max-width: 70vw;
+  background-color: white;
+  color: #155509;
+}
+
+.formDetail input:disabled {
+  background-color: #d7f9d7;
+}
+
+.approved {
+  position: absolute;
+  top: 3%;
+  padding-top: 10px;
+}
+
+.approved label {
+  padding-right: 10px;
+}
+
+.approved input {
+  transform: scale(2);
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 15px;
+}
+
+.edit {
+  border: none;
+  background-color: orange;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.save {
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.delete {
+  border: none;
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+}

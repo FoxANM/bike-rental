@@ -1,0 +1,62 @@
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #155509;
+}
+
+.cases {
+  display: flex;
+  flex-wrap: no-wrap;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.addCase {
+  color: white;
+  background-color: #155509;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 1.2em;
+  align-self: center;
+}
+
+.loading {
+  color: #155509;
+  text-align: center;
+  align-self: center;
+  font-size: 20px;
+}
+
+.caseBox {
+  max-height: 55vh;
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.case {
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.case li {
+  list-style: none;
+  color: #155509;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 50vw;
+  background-color: #5cec5c;
+}
+
+.newCase {
+  color: white;
+  padding: 0 3px;
+  border-radius: 2px;
+  margin-right: 20px;
+}

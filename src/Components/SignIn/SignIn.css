@@ -1,0 +1,72 @@
+  .loading {
+    color: #155509;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0 100px 0;
+    gap: 100px;
+  }
+
+  .formIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5cec5c;
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+  }
+
+  .formIn h1 {
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  .formIn label {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .formIn input {
+    margin: 10px;
+    width: 280px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .formIn button {
+    width: 280px;
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    background-color: #155509;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 576px) {
+    .formIn {
+      max-width: 95%;
+    }
+
+    .formIn input {
+      max-width: 95%;
+    }
+
+    .formIn button {
+      max-width: 95%;
+    }
+  }
+

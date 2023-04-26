@@ -1,0 +1,93 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0 100px 0;
+    gap: 100px;
+  }
+  
+  .formAuth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5cec5c;
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+  }
+  
+  .formAuth h1 {
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  
+  .formAuth label {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .formAuth input {
+    margin: 10px;
+    width: 280px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  input:invalid, select:invalid {
+    border: none;
+    outline: 2px solid #155509;
+    border-radius: 5px;
+  }
+
+  .formAuth select {
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 280px;
+    height: 40px;
+  }
+  
+  .formAuth button {
+    width: 280px;
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    background-color: #155509;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .closeForm {
+    margin-top: -20px;
+    margin-right: -350px;
+    cursor: pointer;
+    color: #155509;
+  }
+
+  @media screen and (max-width: 576px) {
+    .formAuth {
+      max-width: 95%;
+    }
+
+    .formAuth span {
+      margin-right: 0px;
+    }
+
+    .formAuth input {
+      max-width: 95%;
+    }
+
+    .formAuth select {
+        max-width: 95%;
+      }
+    
+    .formAuth button {
+        max-width: 95%;
+      }
+  }

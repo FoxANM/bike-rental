@@ -1,0 +1,37 @@
+nav {
+  background-color: #5cec5c;
+  color: #494b5a;
+  font-weight: bold;
+}
+
+nav li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: white;
+}
+
+.logoLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.size {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #494b5a;
+}
+
+.link {
+  color: #494b5a;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+  text-underline-offset: 3px;
+}
